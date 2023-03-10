@@ -44,3 +44,7 @@ Iniciar proyecto con x puerto
 ```sh
 ng serve -o --port 4300
 ```
+Generar Artefactos de una App Angular
+```sh
+ng generate component mi-componente
+```
