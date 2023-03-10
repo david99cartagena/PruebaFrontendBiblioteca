@@ -3,6 +3,10 @@
 # usar 
 > git clone https://github.com/david99cartagena/PruebaFrontendBiblioteca
 
+Instalar angular dependencias
+```sh
+npm install
+```
 ## Construido con 🛠️
 Herramientas utilizadas
 
