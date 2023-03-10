@@ -3,8 +3,6 @@
 # usar 
 > git clone https://github.com/david99cartagena/PruebaFrontendBiblioteca
 
-
-
 ## Construido con 🛠️
 
 Herramientas utilizadas
@@ -13,10 +11,15 @@ Herramientas utilizadas
 - [Angular] - version 15.2.2, Framework de Frontend
 - [rxjs] - version 7.8.0
 - [typescript] - version 4.9.5
-
-- [Postman]- Plataforma API para que los desarrolladores diseñen, construyan, prueben e iteren sus APIS
-
 - [Git] - version 2.34.1, Sistema de control de versiones
+
+Versiones de angular y node js
+```sh
+node -v o node –version
+```
+```sh
+ng version
+```
 
 Instalar angular
 
@@ -28,4 +31,16 @@ Crear proyecto en angular
 
 ```sh
 ng new proyectoangular
+```
+
+Iniciar proyecto
+
+```sh
+ng serve -open or ng s -o
+```
+
+Iniciar proyecto con x puerto
+
+```sh
+ng serve -o --port 4300
 ```
