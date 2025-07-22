@@ -1,4 +1,4 @@
-# Prueba Frontend Biblioteca
+# PruebaFrontendBiblioteca
 
 Este proyecto es una prueba técnica de frontend construida con Angular para una biblioteca digital.
 
