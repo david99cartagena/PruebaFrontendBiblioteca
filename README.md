@@ -1,45 +1,118 @@
-# PruebaFrontendBiblioteca
+# Prueba Frontend Biblioteca
 
-# usar 
-> git clone https://github.com/david99cartagena/PruebaFrontendBiblioteca
+Este proyecto es una prueba técnica de frontend construida con Angular para una biblioteca digital.
 
-Instalar dependencias angular
-```sh
+## 🚀 Clonar el repositorio
+
+```bash
+git clone https://github.com/david99cartagena/PruebaFrontendBiblioteca
+```
+
+---
+
+## 📦 Instalación de dependencias
+
+Instalar todas las dependencias necesarias con:
+
+```bash
 npm install
 ```
-## Construido con 🛠️
-Herramientas utilizadas
 
-- [node.js] - version v18.14.2, Entorno en tiempo de ejecución multiplataforma para la capa del servidor ( en el lado del servidor )
-- [Angular] - version 15.2.2, Framework de Frontend
-- [rxjs] - version 7.8.0
-- [typescript] - version 4.9.5
-- [Git] - version 2.34.1, Sistema de control de versiones
+## 🛠️ Herramientas utilizadas
 
-Versiones de angular y node js
-```sh
-node -v o node –version
+- **Node.js** - v18.14.2: Entorno de ejecución para JavaScript del lado del servidor.
+- **Angular** - v15.2.2: Framework para aplicaciones web del lado del cliente.
+- **RxJS** - v7.8.0: Librería para programación reactiva.
+- **TypeScript** - v4.9.5: Superset de JavaScript que añade tipado estático.
+- **Git** - v2.34.1: Sistema de control de versiones.
+
+---
+
+## 🧪 Verificar versiones
+
+Verificar la versión de Node.js:
+
+```bash
+node -v
 ```
-```sh
+
+Verificar versión de Angular CLI:
+
+```bash
 ng version
 ```
-Instalar angular
-```sh
-npm install @angular/cli
+
+---
+
+## ⚙️ Instalación de Angular CLI
+
+Si aún no tienes Angular CLI instalado, puedes hacerlo con:
+
+```bash
+npm install -g @angular/cli
 ```
-Crear proyecto en angular
-```sh
-ng new proyectoangular
+
+## 🟡 Crear nuevo proyecto en Angular (opcional)
+
+```bash
+ng new proyecto-angular
 ```
-Iniciar proyecto
-```sh
-ng serve -open or ng s -o
+
+---
+
+## ▶️ Iniciar el proyecto
+
+Iniciar el servidor de desarrollo:
+
+```bash
+ng serve --open
 ```
-Iniciar proyecto con x puerto
-```sh
-ng serve -o --port 4300
+
+`Abreviado`
+
+```bash
+ng s -o
 ```
-Generar Artefactos de una App Angular
-```sh
+
+Iniciar el servidor en un puerto específico:
+
+```bash
+ng serve -open --port 4300
+```
+
+`Abreviado`
+
+```bash
+ng s -o --p 4300
+```
+
+---
+
+## 🧱 Generar componentes de Angular
+
+Para generar un nuevo componente en Angular:
+
+```bash
 ng generate component mi-componente
+```
+
+`Abreviado`
+
+```bash
+ng g c mi-componente
+```
+
+---
+
+## 📁 Estructura sugerida del proyecto
+
+```
+src/
+├── app/
+│   ├── components/
+│   ├── services/
+│   ├── models/
+│   └── app.module.ts
+├── assets/
+└── index.html
 ```
